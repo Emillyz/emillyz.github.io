@@ -1,0 +1,105 @@
+body
+{
+    margin: 0;
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom: 7%;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background-color: rgb(255, 108, 186);
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins", sans-serif;
+    text-emphasis-color: white;
+}
+
+h1
+{
+    font-size: 60px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+h2
+{
+    font-size: 45px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+h3
+{
+    font-size: 30px;
+    color: white;
+    transition: 0.2s ease-in;
+}
+
+p
+{
+    font-size: 20px;
+    color: white;
+    padding-left: 5%;
+    padding-right: 5%;
+    transition: 0.2s ease-in;
+}
+
+hr
+{
+    height: 5px;
+    background-color: white;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-color: white;
+    border: 0;
+    transition: 0.2s ease-in;
+}
+
+.equil
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.diff
+{
+    border-style: solid;
+    border-width: 3px;
+    border-color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border-collapse: separate;
+    border-spacing: 50px;
+    transition: 0.2s ease-in;
+}
+
+a
+{ 
+    position: relative;
+    display: inline-block;
+    padding: 15px 30px;
+    color: white;
+    font-size: 20px;
+    overflow: hidden;
+    transition: 0.3s;
+    border-radius: 15px;
+    text-decoration: none;
+    border-style: solid;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+}
+
+a:hover
+{
+    color: rgb(255, 108, 186);
+    background: white;
+}
